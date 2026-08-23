@@ -1,0 +1,15 @@
+# ==============================================================================
+# Puppetfile (Dependency Management for r10k / Code Manager)
+# ==============================================================================
+forge 'https://forge.puppet.com'
+
+# Core Puppetlabs Modules:
+mod 'puppetlabs-stdlib', '9.4.0'
+mod 'puppetlabs-apache', '12.0.0'
+mod 'puppetlabs-concat', '9.0.0'
+mod 'puppetlabs-ntp', '10.0.0'
+mod 'puppetlabs-firewall', '8.0.0'
+
+# Local Custom Modules:
+mod 'apache_webserver',
+  :local => true

@@ -1,0 +1,8 @@
+---
+# ==============================================================================
+# Production Environment Overrides
+# ==============================================================================
+apache_webserver::server_admin: "oncall-production@company.com"
+
+# Stricter Logging in Production
+log_level: "warn"

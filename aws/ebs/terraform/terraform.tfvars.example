@@ -1,0 +1,8 @@
+aws_region            = "us-east-1"
+environment           = "production"
+availability_zone     = "us-east-1a"
+ebs_volume_size       = 150
+ebs_volume_type       = "gp3"
+ebs_iops              = 3000
+ebs_throughput        = 125
+backup_retention_days = 14

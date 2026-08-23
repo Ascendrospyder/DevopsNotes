@@ -1,0 +1,22 @@
+<%- | Integer $port,
+      String  $doc_root,
+      String  $server_admin,
+      String  $server_name
+| -%>
+# ==============================================================================
+# Managed by Puppet Configuration Management - DO NOT EDIT MANUALLY
+# ==============================================================================
+<VirtualHost *:<%= $port %>>
+    ServerAdmin <%= $server_admin %>
+    ServerName <%= $server_name %>
+    DocumentRoot <%= $doc_root %>
+
+    <Directory <%= $doc_root %>>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+    </Directory>
+
+    ErrorLog logs/<%= $server_name %>_error.log
+    CustomLog logs/<%= $server_name %>_access.log combined
+</VirtualHost>

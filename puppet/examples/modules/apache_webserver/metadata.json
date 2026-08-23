@@ -1,0 +1,36 @@
+{
+  "name": "company-apache_webserver",
+  "version": "1.0.0",
+  "author": "CloudOps Engineering",
+  "summary": "Enterprise Apache webserver management module",
+  "license": "Apache-2.0",
+  "source": "git@github.com:mycompany/puppet-apache_webserver.git",
+  "project_page": "https://github.com/mycompany/puppet-apache_webserver",
+  "issues_url": "https://github.com/mycompany/puppet-apache_webserver/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 6.0.0 < 10.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": ["8", "9"]
+    },
+    {
+      "operatingsystem": "Amazon",
+      "operatingsystemrelease": ["2023"]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": ["22.04", "24.04"]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 7.0.0 < 9.0.0"
+    }
+  ]
+}

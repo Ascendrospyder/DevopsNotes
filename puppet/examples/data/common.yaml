@@ -1,0 +1,15 @@
+---
+# ==============================================================================
+# Global Baseline Configuration (Lowest Priority Fallback)
+# ==============================================================================
+apache_webserver::http_port: 80
+apache_webserver::server_admin: "cloudops@company.com"
+apache_webserver::doc_root: "/var/www/html"
+
+# Global System NTP Baseline
+ntp_servers:
+  - "0.pool.ntp.org"
+  - "1.pool.ntp.org"
+
+# Default Logging Verbosity
+log_level: "info"

@@ -1,0 +1,6 @@
+aws_region            = "us-east-1"
+environment           = "production"
+alert_email           = "cloudops-oncall@example.com"
+log_retention_days    = 30
+cpu_alarm_threshold   = 80
+monitored_instance_id = "i-0123456789abcdef0"
