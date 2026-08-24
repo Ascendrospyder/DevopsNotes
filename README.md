@@ -10,6 +10,8 @@ Welcome to the Cloud Operations (CloudOps) & DevOps Engineering Notes repository
 DevopsNotes/
 ├── README.md
 ├── aws/
+│   ├── acm/
+│   │   └── 01-acm-cloudops-guide.md
 │   ├── cloudwatch/
 │   │   ├── 01-cloudwatch-cloudops-guide.md
 │   │   ├── 02-terraform-cloudwatch-guide.md
@@ -27,10 +29,17 @@ DevopsNotes/
 │   │   └── terraform/
 │   ├── efs/
 │   │   └── 01-efs-cloudops-guide.md
+│   ├── elb/
+│   │   ├── 01-elb-cloudops-guide.md
+│   │   ├── 02-auto-scaling-guide.md
+│   │   ├── 03-application-load-balancer-guide.md
+│   │   ├── 04-network-load-balancer-guide.md
+│   │   └── 05-elb-monitoring-and-troubleshooting-guide.md
 │   ├── fsx/
 │   │   └── 01-fsx-cloudops-guide.md
 │   ├── kms/
-│   │   └── 01-kms-cloudops-guide.md
+│   │   ├── 01-kms-cloudops-guide.md
+│   │   └── 02-kms-cross-account-access-guide.md
 │   ├── s3/
 │   │   ├── 01-s3-parallelisation-and-data-transfer-guide.md
 │   │   ├── 02-s3-directory-buckets-guide.md
