@@ -29,6 +29,8 @@ DevopsNotes/
 │   │   └── 01-efs-cloudops-guide.md
 │   ├── fsx/
 │   │   └── 01-fsx-cloudops-guide.md
+│   ├── kms/
+│   │   └── 01-kms-cloudops-guide.md
 │   ├── s3/
 │   │   ├── 01-s3-parallelisation-and-data-transfer-guide.md
 │   │   ├── 02-s3-directory-buckets-guide.md
